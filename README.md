@@ -9,12 +9,23 @@ npx tsc --init
 npm install -D jest @types/jest ts-jest
 npm install @types/jest --save-dev
 ```
+
+# 테스트 환경 구성
+``` bash
+npm install
+```
+
+# 브랜치 만들기
+``` bash
+git checkout -b <이름 영어로>
+```
+
 # 과제 파일 실행
 ``` bash
 npx ts-node assignment.ts
 ```
 
-# ts 파일 실행
+# 테스트 파일 실행
 ``` bash
 npx jest assignment.test.ts
 ```
